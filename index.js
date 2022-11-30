@@ -21,7 +21,6 @@ mongoose
   .catch((err) => {
     console.log(err.message);
   });
-
 app.use("/api/auth", authRoutes);
 app.use("/api/messages", messageRoutes);
 
